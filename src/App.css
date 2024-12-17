@@ -45,9 +45,51 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  background-color: #030a23;
+  box-shadow: 0 0 10px white;
 }
 
 h1, h2, header, footer {
   color: white;
   text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3  {
+  font-size: 1.2em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #ffffff;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+}
+
+li:hover {
+  background-color: #b5b5b5;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-left: -0px;
+}
+
+footer h2 {
+  color: black;
 }
